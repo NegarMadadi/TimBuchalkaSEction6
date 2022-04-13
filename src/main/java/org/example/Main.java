@@ -1,9 +1,8 @@
 package org.example;
 
-import org.example.sec6.BankAccount;
-import org.example.sec6.VIPCustomer;
+import org.example.sec6.Wall;
 
- public class Main {
+public class Main {
     public static void main(String[] args) {
 
         // code for testng Car class
@@ -71,7 +70,6 @@ import org.example.sec6.VIPCustomer;
         */
 
 
-
         //code for testing VIPCustomer class
         /*
          VIPCustomer person1 = new VIPCustomer();
@@ -83,6 +81,18 @@ import org.example.sec6.VIPCustomer;
         VIPCustomer person3 = new VIPCustomer("Zisis", 187, "Zisis@gmail.com");
         System.out.println(person1.getName());
         */
+
+
+        //code for testing WallArea class
+
+        Wall wall = new Wall(5, 4);
+        System.out.println("area= " + wall.getArea());
+
+        wall.setHeight(-1.5);
+        System.out.println("width= " + wall.getWidth());
+        System.out.println("height= " + wall.getHeight());
+        System.out.println("area= " + wall.getArea());
+
 
 
     }
