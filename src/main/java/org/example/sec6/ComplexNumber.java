@@ -58,7 +58,7 @@ package org.example.sec6;
 //NOTE: In total, you have to write 6 methods.
 //
 //NOTE: Do not add a main method to the solution code.
-public class ComplexNumber {
+public class ComplexNumber  {
     double real;
     double imaginary;
 
@@ -88,7 +88,4 @@ public class ComplexNumber {
         this.real += complexNumber.real;
         this.imaginary += complexNumber.imaginary;
     }
-
-
-
 }
