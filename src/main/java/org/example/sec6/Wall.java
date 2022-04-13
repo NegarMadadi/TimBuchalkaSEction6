@@ -62,7 +62,6 @@ public class Wall {
         } else {
             this.height = height;
         }
-        System.out.println("negar Madadi");
     }
 
     public double getWidth() {
