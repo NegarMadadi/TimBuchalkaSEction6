@@ -79,7 +79,7 @@ public class BankAccount {
 
     }
 
-    public void withraw(int amount) {
+    public void withraw(double amount) {
         if (amount < this.balance) {
             this.balance -= amount;
             System.out.println("Remaining balance is " + this.balance);

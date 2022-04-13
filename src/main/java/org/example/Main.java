@@ -1,5 +1,6 @@
 package org.example;
 
+import org.example.sec6.BankAccount;
 import org.example.sec6.VIPCustomer;
 
  public class Main {
@@ -64,8 +65,11 @@ import org.example.sec6.VIPCustomer;
 
         BankAccount timsAccount = new BankAccount("Tim","tim@gmail.com","1245");
         System.out.println(timsAccount.getAccountNumber() + " name " + timsAccount.getCustomerName());
+        System.out.println("Current balance is " + timsAccount.getBalance());
+        timsAccount.withraw(100.55);
         System.out.println("***********************************************"  );
         */
+
 
 
         //code for testing VIPCustomer class
