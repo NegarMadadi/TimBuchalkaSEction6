@@ -1,4 +1,4 @@
-package org.example.sec6;
+package org.example.sec6.person;
 
 
 //Write a class with the name Person. The class needs three fields (instance variables) with the names firstName, lastName of type String and age of type int.
