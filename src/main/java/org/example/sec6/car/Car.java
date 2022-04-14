@@ -1,4 +1,4 @@
-package org.example.sec6;
+package org.example.sec6.car;
 
 public class Car {
 
