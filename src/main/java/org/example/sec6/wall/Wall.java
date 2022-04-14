@@ -1,4 +1,4 @@
-package org.example.sec6;
+package org.example.sec6.wall;
 
 //Write a class with the name Wall. The class needs two fields (instance variables) with name width and height of type double.
 //
