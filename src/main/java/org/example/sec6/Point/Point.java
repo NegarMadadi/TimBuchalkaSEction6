@@ -1,4 +1,4 @@
-package org.example.sec6;
+package org.example.sec6.Point;
 
 //You have to represent a point in 2D space. Write a class with the name Point. The class needs two fields (instance variables) with name x and y of type int.
 //
