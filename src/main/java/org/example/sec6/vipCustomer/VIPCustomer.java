@@ -1,4 +1,4 @@
-package org.example.sec6;
+package org.example.sec6.vipCustomer;
 
 public class VIPCustomer {
     private String name;
