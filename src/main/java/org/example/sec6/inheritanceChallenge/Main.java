@@ -15,6 +15,5 @@ public class Main {
         newFord.accelerate(30);
         newFord.accelerate(20);
         newFord.accelerate(-42);
-
     }
 }
